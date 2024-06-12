@@ -1,0 +1,99 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    font-family: system-ui;
+}
+
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+    outline: none;        
+}    
+
+body h2 {
+    display: flex;
+    justify-content: center;
+    color: #183db7;
+    background:  #e9c044;
+    font-size: 1.3rem;
+    height: 50px;
+    letter-spacing: 2px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+h2 span{
+    display: flex;
+}
+
+span img{
+    background-color: #e9c044;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    width: 84%;
+}
+
+#main-textarea{
+    width: 82vw;
+    height: 200px;
+    margin-top: 90px;
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #00124d;
+    outline: none;
+    resize: none;
+}
+
+.keyboard-area{
+    margin-top: 20px;
+}
+
+.keyboard-keys:hover{
+    box-shadow: 0px 0px 6px 0px gray;
+}
+
+.keyboard-keys {
+    display: inline-block;
+    cursor: pointer;
+    width: 40px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #ffcc33, #e9c044);
+    color: #183db7;
+    font-weight: bold;
+}
+
+.keyboard-row{
+    display: flex;
+    justify-content: center;
+}
+
+.backSpace{
+    width: 100px;
+}
+
+#deleteAll{
+    width: 89px;
+}
+
+#firstShift{
+    width: 116px;
+}
+
+#secondShift{
+    width: 121px;
+}
+
+#space{
+    width: 300px;
+}

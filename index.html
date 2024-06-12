@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Keyboard on webpage</title>
+</head>
+<body>
+    <h2><span><img src="icon.png" alt=""></span>Web Based Keyboard</h2>
+    <div class="container">
+        <div class="main-area">
+            <!-- <p>Disclaimer : Don't use your external input keyboard</p> -->
+            <textarea name="" id="main-textarea" onclick="setCursorToTopLeft()" ></textarea>
+        </div>
+        <div class="keyboard-area">
+            <div class="keyboard-row">
+                <span class="keyboard-keys">`</span>
+                <span class="keyboard-keys">1</span>
+                <span class="keyboard-keys">2</span>
+                <span class="keyboard-keys">3</span>
+                <span class="keyboard-keys">4</span>
+                <span class="keyboard-keys">5</span>
+                <span class="keyboard-keys">6</span>
+                <span class="keyboard-keys">7</span>
+                <span class="keyboard-keys">8</span>
+                <span class="keyboard-keys">9</span>
+                <span class="keyboard-keys">0</span>
+                <span class="keyboard-keys">-</span>
+                <span class="keyboard-keys">=</span>
+                <span class="keyboard-keys backSpace">Backspace</span>
+            </div>
+            <div class="keyboard-row upperrow">
+                <span class="keyboard-keys backSpace">Tab</span>
+                <span class="keyboard-keys">Q</span>
+                <span class="keyboard-keys">W</span>
+                <span class="keyboard-keys">E</span>
+                <span class="keyboard-keys">R</span>
+                <span class="keyboard-keys">T</span>
+                <span class="keyboard-keys">Y</span>
+                <span class="keyboard-keys">U</span>
+                <span class="keyboard-keys">I</span>
+                <span class="keyboard-keys">O</span>
+                <span class="keyboard-keys">P</span>
+                <span class="keyboard-keys">[</span>
+                <span class="keyboard-keys">]</span>
+                <span class="keyboard-keys">\</span>
+            </div>
+            <div class="keyboard-row upperrow">
+                <span class="keyboard-keys backSpace">CapsLock</span>
+                <span class="keyboard-keys">A</span>
+                <span class="keyboard-keys">S</span>
+                <span class="keyboard-keys">D</span>
+                <span class="keyboard-keys">F</span>
+                <span class="keyboard-keys">G</span>
+                <span class="keyboard-keys">H</span>
+                <span class="keyboard-keys">J</span>
+                <span class="keyboard-keys">K</span>
+                <span class="keyboard-keys">L</span>
+                <span class="keyboard-keys">;</span>
+                <span class="keyboard-keys">'</span>
+                <span class="keyboard-keys" id="deleteAll">Enter</span>
+            </div>
+           
+            <div class="keyboard-row upperrow">
+                <span class="keyboard-keys" id="firstShift">Shift</span>
+                <span class="keyboard-keys">Z</span>
+                <span class="keyboard-keys">X</span>
+                <span class="keyboard-keys">C</span>
+                <span class="keyboard-keys">V</span>
+                <span class="keyboard-keys">B</span>
+                <span class="keyboard-keys">N</span>
+                <span class="keyboard-keys">M</span>
+                <span class="keyboard-keys">,</span>
+                <span class="keyboard-keys">.</span>
+                <span class="keyboard-keys">/</span>
+                <span class="keyboard-keys" id="secondShift">Delete all</span>
+            </div>
+            <div class="keyboard-row">
+                <span class="keyboard-keys" id="space">Space</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
